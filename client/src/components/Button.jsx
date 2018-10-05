@@ -10,7 +10,7 @@ class GetDataButton extends React.Component {
   }
 
   getData() {
-    console.log('getting data...');
+    console.log('getData() called');
     fetch('http://localhost:8080/userdata', {
       method: 'GET',
       mode: 'no-cors',
